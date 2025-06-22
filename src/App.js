@@ -111,7 +111,7 @@ function App() {
     <NavbarFooter count={count}/>
 
     <Routes>
-      <Route path='/Home' element={<>
+      <Route path='/' element={<>
       <HeroSection/>
     <BannerFooter/>
     <DiscoverMenu />
