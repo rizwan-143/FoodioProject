@@ -11,7 +11,7 @@ export default function NavbarFooter({count}) {
                 <div className="row">
                     <div className="col-12">
                         <nav className="navbar navbar-expand-lg">
-                            <div className="nav-brand"><Link to="/Home" className=' text-dark text-decoration-none fw-bold'><img src="/logo.png" alt="" /></Link></div>
+                            <div className="nav-brand"><Link to="/" className=' text-dark text-decoration-none fw-bold'><img src="/logo.png" alt="" /></Link></div>
                             <button className='navbar-toggler order-1' data-bs-toggle="offcanvas" data-bs-target="#offcanvas" ><i class="fa-solid fa-bars"></i></button>
                             <div className="offcanvas offcanvas-start" id='offcanvas'>
                                 <div className="offcanvas-header">
