@@ -36,3 +36,252 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* here my css */
+
+*{
+  text-transform: capitalize;
+}
+
+.social-list li:hover{
+  color: red;
+  transition: all .5s;
+  cursor: pointer;
+
+}
+
+.login-tags strong:hover{
+  color: red;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.email:hover{
+    color: red;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.phone:hover{
+    color: red;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.reserve-border{
+  width: 120px;
+  height: 48px;
+  right: -7px;
+}
+
+.reserve-table:hover .reserve-border {
+  width: 50px !important;
+  transition: all 1s;
+}
+
+
+.no-arrow::after{
+  display: none !important;
+
+}
+
+/* .hover-dropdown:hover strong{
+ color:  red;
+ transition: all 1s;
+} */
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0px; /* Optional: to align tightly with button */
+}
+ 
+.dropdown-toggle:hover{
+  color: red;
+  transition: all 1s;
+}
+
+.dropdown-menu li:hover{
+  color: red !important;
+  transition: all 1s;
+}
+
+
+.banner-btn{
+  width: 150px;
+}
+
+.banner-btn-border{
+  width: 120px;
+  height: 50px;
+  right: -7px;
+}
+
+.banner-btn:hover .banner-btn-border{
+  width: 60px;
+  transition: all 1s;
+}
+
+
+.subscribe{
+  width: 100px;
+}
+
+.subscribe-border{
+  width: 90px;
+  height: 50px;
+  right: -7px;
+}
+
+.subscribe:hover .subscribe-border{
+  width: 30px;
+  transition: all 1s;
+}
+
+
+.footer-container li:hover{
+color: red;
+transition: all 1s;
+cursor: pointer;
+}
+
+.recent-news p:hover{
+color: red;
+transition: all 1s;
+cursor: pointer;
+}
+
+.form-submit:hover .submit-border{
+  width: 70px !important;
+  transition: all 1s;
+}
+
+
+#hello:hover .red-overlay{
+  z-index: 1 !important;
+  animation-name: flip;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-duration: .5s;
+  transition: all .5s;
+  opacity: 0.8;
+}
+
+@keyframes flip {
+
+  /* from{
+    transform: rotateY(180deg);
+  } */
+   from{
+    transform: scale(0%);
+   }to{
+    transform: scale(100%);
+   }
+  
+}
+
+#hero-section{
+  background-image: url("./../public/hero-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.hero-button{
+  width:150px ;
+   height:50px;
+}
+.red-border-color{
+  height:50px ;
+   width:120px;
+   right: -6px;
+}
+
+.hero-button:hover .red-border-color{
+  width: 70px;
+  transition: all 1s;
+}
+
+
+#chechOutBanner{
+  background-image: url("./../public/cartbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+
+.col-car-button:hover .cart-button-border{
+  width: 80px !important;
+  transition: all 1s;
+}
+
+
+#shop-cart-banner{
+   background-image: url("./../public/cartbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shop-cart-button:hover .cart-shop-border{
+  width: 100px !important;
+  transition: all 1s;
+}
+
+
+
+#product-details-banner{
+   background-image: url("./../public/cartbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.products-details-button:hover .red-over-lay-Pdetails{
+  width: 60px !important;
+  transition: all 1s;
+}
+
+.post-review:hover .post-review-overlay{
+  width: 60px !important;
+  transition: all 1s;
+}
+
+
+.login:hover .login-border{
+  width: 80px !important;
+  transition: all 1s;
+}
+.register:hover .register-border{
+  width: 80px !important;
+  transition: all 1s;
+}
+
+.send-message:hover .send-message-border{
+  width: 80px !important;
+  transition: all 1s;
+}
+
+
+
+/* here goes responsiveness code  */
+
+@media screen and (min-width: 320px) and (max-width : 480px) {
+  .nav-brand img{
+    width: 100px !important;
+  }
+  
+  .carousel-caption h5{
+    font-size: 12px !important;
+  }
+
+  .light-color{
+    width: 100% !important;
+  }
+  .discover-content-row{
+    font-size: 12px !important;
+  }
+}
