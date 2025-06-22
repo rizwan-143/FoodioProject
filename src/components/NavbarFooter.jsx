@@ -20,7 +20,7 @@ export default function NavbarFooter({count}) {
                                 <div className="navbar-body">
                                     <ul className="navbar-nav d-flex justify-content-center gap-3">
                                         <li className="nav-item">
-                                         <Link to="/Home" className='text-secondary text-decoration-none fw-bold '>home</Link>
+                                         <Link to="/" className='text-secondary text-decoration-none fw-bold '>home</Link>
                                         </li>
                                         <li className="nav-item">
                                                 <div class="dropdown hover-dropdown">
